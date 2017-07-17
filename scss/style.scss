@@ -1,0 +1,55 @@
+// Utilities ----------------
+.border {
+  border: dashed 1px black;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Element styles -----------
+body {
+  min-width: 350px;
+  min-height: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+// Class styles ------------
+
+// Contatiners
+.content {
+  height: 90vh;
+}
+.footer {
+  height: 60px;
+  padding: 20px 0px;
+  .link {
+    color: #666;
+    margin-left: 4px;
+    z-index:50;
+    font-size:0.9em;
+    vertical-align: middle; 
+  }
+}
+
+// Quote
+.quote {
+  font-family: 'Poiret One', cursive;
+  margin: 15px auto;
+}
+.quote-author {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+// Buttons
+.btn-row {
+  padding: 20px 0px;
+}
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ddd;
+  border: solid 1px #ccc;
+  &:hover {
+    border: solid 1px #888; 
+  }
+}
