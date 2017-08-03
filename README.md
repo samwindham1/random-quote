@@ -3,4 +3,4 @@
 
 Written as a freeCodeCamp.com project
 
-View here: https://samwindham1.github.io/random_quote/
+View here: https://samwindham1.github.io/random-quote/
